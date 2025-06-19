@@ -1,0 +1,42 @@
+@media screen and (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 4vw;
+        align-items: flex-start;
+    }
+    header nav ul {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+    .wrapper {
+        flex-direction: column;
+        padding: 160px 40px 40px;
+        gap: 40px;
+    }
+
+    .photo {
+        margin: 0;
+    }
+
+    .frame-footer {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        padding: 60px 5vw;
+    }
+
+    .email-input {
+        padding: 21px 60px 21px 25px;
+        min-width: auto;
+        width: 100%;
+    }
+
+    .subscribe-form {
+        flex-direction: column;
+    }
+}
